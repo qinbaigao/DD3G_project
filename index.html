@@ -80,9 +80,10 @@
                   <!-- <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
                       <source src="video/teaser.mp4" type="video/mp4">
                   </video> -->
+                  <br>
                   <img src="assets/DD3G.png" alt="Overview" width="100%">
     
-                  <br><br><br>
+                  <br><br>
                 
               <p class="text-align: justify;">
               We introduce DD3G, a formulation that distills a multi-view diffusion model (MV-DM) into a 3D generator using Gaussian Splatting. DD3G compresses and integrates extensive visual and spatial geometric knowledge from the MV-DM by simulating its ordinary differential equation (ODE) trajectory, ensuring the distilled generator generalizes better than those trained solely on 3D data. Unlike previous amortized optimization approaches, we align the MV-DM and 3D generator representation spaces to transfer the teacher’s probabilistic flow to the student, thus avoiding inconsistencies in optimization objectives caused by probabilistic sampling. The introduction of probabilistic flow and the coupling of various attributes in 3D Gaussians introduce challenges in the generation process. To tackle this, we propose PEPD, a framework consisting of Pattern Extraction and Progressive Decoding phases, which enables efficient fusion of probabilistic flow and converts a single image into 3D Gaussians within 0.06 seconds. Furthermore, to reduce knowledge loss and overcome sparse-view supervision, we design a joint optimization objective that ensures the quality of generated samples through explicit supervision and implicit verification. Leveraging existing 2D generation models, we compile 120k high-quality RGBA images for distillation. Experiments on synthetic and public datasets demonstrate the effectiveness of our method.              </p>
@@ -108,10 +109,10 @@
                     <!-- <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
                         <source src="video/teaser.mp4" type="video/mp4">
                     </video> -->
-                    <br><br><br>
+                    <br><br>
                     <img src="assets/DD3G_framework.png" alt="Overview" width="100%">
       
-                    <br><br><br>
+                    <br><br>
                   
               </div>
             </div>
