@@ -1,1 +1,1 @@
-# Gamba: Marry Gaussian Splatting with Mamba for Single-View 3D Reconstruction
+# DD3G: Distilling Multi-view Diffusion Models into 3D Generators
