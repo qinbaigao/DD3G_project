@@ -1,1 +1,1 @@
-# DD3G: Distilling Multi-view Diffusion Models into 3D Generators
+# Distilling Multi-view Diffusion Models into 3D Generators
